@@ -15,8 +15,8 @@
    "bk": "h1",
    "note": "入住 16:00 起 · 自助入住（密碼在入住信）· 可部分退款",
    "sec": {
-    "iv": "LYRlOE3DzaJ9qPqw",
-    "ct": "C3xRwTt44MV25Ik4OQdy2KlKoK0Bof91eFdfBaeLplBHPedQFXMA4fE+DFoOjSAO2qiuI/e43U/G5rSlBkyBONJj2D4u"
+    "iv": "+JzFIlAvyvPRRfdw",
+    "ct": "nIx3+GCmKfKw22jDl15fR5McusU9EsHUrrUQkW/KkxkA8tZqKj2JRPHwdH0iOGvCzNxiAHdI5CwqS7xnasilzEBzCmpE"
    },
    "files": [
     {
@@ -29,6 +29,60 @@
    "at": 0
   },
   {
+   "id": "usjin",
+   "t": "USJ 入園門票 1 Day Studio Pass ×2",
+   "d1": "2026-10-25",
+   "bk": "usjin",
+   "note": "兩人各一張 QR，入園閘門各自掃 · 第 1 張你、第 2 張女朋友 · KKday",
+   "d2": "",
+   "sec": {
+    "iv": "+4ozAW4yZNaup6Dc",
+    "ct": "igRQMumP+XJgbD1qu/rni9MzUKJQf9y3exoNaskG4AHm8VeGg6ko6BFDbI+kERg="
+   },
+   "files": [
+    {
+     "a": "usjin-3dccc83fe4",
+     "m": "image/jpeg",
+     "w": 1102,
+     "h": 1546
+    },
+    {
+     "a": "usjin-e1e6f9450a",
+     "m": "image/jpeg",
+     "w": 1102,
+     "h": 1546
+    }
+   ],
+   "at": 1
+  },
+  {
+   "id": "usj",
+   "t": "USJ 快速通關 4 ～Minecart & JAWS～ ×2",
+   "d1": "2026-10-25",
+   "bk": "usj",
+   "note": "瑪利歐賽車 09:40–10:10 · 任天堂世界入場 09:40–10:40 · 咚奇剛礦車 10:10–10:40 · 侏儸紀或 JAWS、禁忌之旅或飛天翼龍各選一（不限時）· 每人一張，在設施入口給工作人員掃",
+   "d2": "",
+   "sec": {
+    "iv": "yySBG7geoOywln37",
+    "ct": "Ezh0Tj7PSURDKgD2wdjdRG9UwBx3EkwVTxZNy66JK1E17KGzF6a+xojxaVwkPtM="
+   },
+   "files": [
+    {
+     "a": "usj-5767af5963",
+     "m": "image/jpeg",
+     "w": 1206,
+     "h": 1546
+    },
+    {
+     "a": "usj-57040e749d",
+     "m": "image/jpeg",
+     "w": 1206,
+     "h": 1546
+    }
+   ],
+   "at": 2
+  },
+  {
    "id": "metro26",
    "t": "大阪地鐵 26 小時券（Klook）",
    "d1": "2026-10-26",
@@ -36,8 +90,8 @@
    "note": "第一次搭地鐵刷 QR 才開始算 26 小時；天守閣售票處出示可打折",
    "d2": "",
    "sec": {
-    "iv": "EZYvz9ICx3azZX2D",
-    "ct": "weoDTk0qcHllz4crieb/RRN5MnYU/knCZt1zkxe0K7lmImk3piD04d2HdfBjRBO5J8wAb4JkbieAYUdgiJdK+Pm54L/idQaUEff8FECbWGgZswLp86iDMpvD813Jh/e36C74BwFSXvVREmzHfl6/H2WRB866xREG3DND9HX8uFRlupyKPDVHq06xTO+iN85iqA=="
+    "iv": "XVlFUjteCY9Jr4AO",
+    "ct": "JcRkuAWEFB6rKeHepSdPuc17sVvSSvXs/JFZasDrTXjVSz+ChLB+uRJ6d1nm7ou8EchZWgU//sc1kwOOttCS2nqdUHc5ws5bOlVYJGKQQdBN8w2yC98g0kV+wkPTliS5jAfNu12jJcHmFdNjsJ1OUhnaQaVS5lBt1wbz58Yp0E46iz8STdPeT5H93ghLY074Zg=="
    },
    "files": [
     {
@@ -76,7 +130,7 @@
      "h": 1755
     }
    ],
-   "at": 1
+   "at": 3
   },
   {
    "id": "h2",
@@ -86,8 +140,8 @@
    "bk": "h2",
    "note": "入住 15:00 起 · 不可退款",
    "sec": {
-    "iv": "VO4NektzONJDfAQD",
-    "ct": "JrT1/AIySRmYT3aTuGsGVQKKXzbO8uI0ez9fPUqBcnBTKxN+QhGS7C0AwxrXI9Xpf3HEVZOp0regsPrCJuQ8H87CqkUM"
+    "iv": "u9FP5+5is1eXRcUo",
+    "ct": "EB1HEXjArNBrvm16woVQlwChxzj5WysggeciTlIwtkAotEionbf7/5NEkSchFQBJm1nzYhJeNTPVqMUjAp12zkeABNeW"
    },
    "files": [
     {
@@ -97,7 +151,7 @@
      "h": 1907
     }
    ],
-   "at": 2
+   "at": 4
   },
   {
    "id": "haruka",
@@ -107,11 +161,11 @@
    "note": "WEST QR 電子車票；單程不能中途下車，坐到關西空港",
    "d2": "",
    "sec": {
-    "iv": "GGnm5L3Lkk/KJcoX",
-    "ct": "Qdv4KVmwH+SnlpIdnJaU6P43KJcdUnliV+i9U+LJPMKlCVg2kbYWfu4MCEVXY4liBZozVGklsE9gxtfEYFw="
+    "iv": "5SGMkkeLL6XJtx/2",
+    "ct": "+prLXnj3QQWAC+/y0TqmzAhFZhw/b9Lx6FmpByJa4PR7+taQuFZC0FHdm2UjGY9h5esT8DT/5Az+NO/e1lM="
    },
    "files": [],
-   "at": 3
+   "at": 5
   }
  ]
 }
