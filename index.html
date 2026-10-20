@@ -427,6 +427,7 @@ main{padding-bottom:70px}
 .tkv .kv{display:block;font:600 18px/1.35 var(--f-mono);color:var(--ink);word-break:break-all;user-select:all;font-variant-numeric:tabular-nums}
 .tkv .kw{flex:1;min-width:0}
 .tlink{color:var(--osaka);text-decoration:none;font-size:16px}
+.tpdf{text-decoration:none;display:inline-block}
 .tcp{border:1px solid var(--line);background:none;border-radius:6px;padding:3px 10px;font-size:12px;cursor:pointer;color:var(--ink2);flex:0 0 auto}
 .tbright{font-size:12px;color:var(--mute);margin-top:12px}
 .timgs{display:grid;gap:10px;margin-top:6px}
@@ -1303,6 +1304,8 @@ document.getElementById('toTop').addEventListener('click',function(){window.scro
   function saveCache(){store('tix-cache',JSON.stringify({T:T,meta:meta}))}
   function cmp(a,b){return (a.d1||'').localeCompare(b.d1||'')||(a.at||0)-(b.at||0)}
   function get(id){return T.filter(function(t){return t.id===id})[0]}
+  function imgsOf(t){return (t.files||[]).filter(function(f){return !f.doc})}
+  function docsOf(t){return (t.files||[]).filter(function(f){return f.doc})}
 
   /* ---- crypto ---- */
   var te=new TextEncoder(),td=new TextDecoder();
@@ -1428,9 +1431,9 @@ document.getElementById('toTop').addEventListener('click',function(){window.scro
     var L=E('tixList'),h='';
     if(T.length){
       h='<div class="blist tlist">';
-      T.forEach(function(t){var n=(t.files||[]).length,bits=[];
+      T.forEach(function(t){var n=imgsOf(t).length,dn=docsOf(t).length,bits=[];
         if(t.note)bits.push(esc(t.note));
-        if(t.sec)bits.push('有號碼');if(n)bits.push(n+' 張票面');if(!t.sec&&!n)bits.push('還沒放號碼或票面');
+        if(t.sec)bits.push('有號碼');if(n)bits.push(n+' 張票面');if(dn)bits.push('原始 PDF');if(!t.sec&&!n&&!dn)bits.push('還沒放號碼或票面');
         h+='<div class="brow" role="button" tabindex="0" data-tixopen="'+t.id+'"><span class="bd">'+range(t)+'</span><span class="bt">'+esc(t.t)+'<small>'+bits.join(' · ')+'</small></span>'+
           '<span class="st '+(key?'ok':'lock')+'">'+(key?'看票':'🔒')+'</span></div>'});
       h+='</div>';
@@ -1468,7 +1471,7 @@ document.getElementById('toTop').addEventListener('click',function(){window.scro
     var seq=++popSeq,h='',list=popIds.map(get).filter(Boolean);
     if(!list.length){closePop();return}
     list.forEach(function(t,i){
-      var ln=t.bk&&LINKS[t.bk],n=(t.files||[]).length,has=t.sec||n;
+      var ln=t.bk&&LINKS[t.bk],im=imgsOf(t),dc=docsOf(t),n=im.length,has=t.sec||n||dc.length;
       if(i)h+='<hr class="tsep">';
       h+='<div class="teye">🎫 '+range(t)+(ln&&ln.t!==t.t?' · '+esc(ln.t):'')+'</div><div class="ttl">'+esc(t.t)+'</div>';
       if(t.note)h+='<div class="tnote">'+esc(t.note)+'</div>';
@@ -1476,7 +1479,8 @@ document.getElementById('toTop').addEventListener('click',function(){window.scro
       else if(!key)h+='<div class="tacts"><button class="tbtn pri" type="button" data-tact="unlock">'+(pkOK&&pkLoad()?'用 Face ID 看號碼和票面':'🔒 輸入密碼看號碼和票面')+'</button></div>';
       else{
         h+='<div class="tkv" id="tkv-'+t.id+'">'+(t.sec?'<div><span class="kw"><span class="kl">解密中…</span></span></div>':'')+'</div>';
-        if(n)h+='<div class="tbright">櫃台掃碼時把螢幕亮度調高 · 點圖放大</div><div class="timgs">'+t.files.map(function(f,j){
+        dc.forEach(function(f,j){h+='<div class="tacts"><a class="tbtn pri tpdf" id="tpd-'+t.id+'-'+j+'" href="#" target="_blank" rel="noopener">原始 PDF 解密中…</a></div>'});
+        if(n)h+='<div class="tbright">櫃台掃碼時把螢幕亮度調高 · 點圖放大</div><div class="timgs">'+im.map(function(f,j){
           return '<div class="timg" data-tzoom id="tim-'+t.id+'-'+j+'"'+(f.w?' style="aspect-ratio:'+f.w+'/'+f.h+'"':'')+'>解密中…</div>'}).join('')+'</div>';
       }
       if(canWrite)h+='<div class="tacts"><button class="tbtn" type="button" data-tact="edit" data-id="'+t.id+'">編輯</button></div>';
@@ -1484,7 +1488,7 @@ document.getElementById('toTop').addEventListener('click',function(){window.scro
     E('tixPopBody').innerHTML=h;
     if(key)list.forEach(function(t){fill(t,seq)});
   }
-  function kvLine(l){if(/^https?:\/\//i.test(l))return {k:'',v:l};var m=/^(.+?)[\s:：]+(\S.*)$/.exec(l);return m&&m[1].length<=12?{k:m[1],v:m[2]}:{k:'',v:l}}
+  function kvLine(l){var mu=/^(.*?)[\s:：]*(https?:\/\/\S+)\s*$/i.exec(l);if(mu)return {k:mu[1].trim().slice(0,16),v:mu[2]};var m=/^(.+?)[\s:：]+(\S.*)$/.exec(l);return m&&m[1].length<=12?{k:m[1],v:m[2]}:{k:'',v:l}}
   function host(u){try{var x=new URL(u);return x.hostname+(x.pathname.length>1?x.pathname.slice(0,18)+(x.pathname.length>18?'…':''):'')}catch(e){return u}}
   function fill(t,seq){
     if(t.sec)unseal(key,t.sec).then(function(u){if(seq!==popSeq)return;var box=E('tkv-'+t.id);if(!box)return;
@@ -1492,7 +1496,10 @@ document.getElementById('toTop').addEventListener('click',function(){window.scro
         var isU=/^https?:\/\/\S+$/i.test(p.v);   /* 網址（電子票連結、PDF 裡的連結）做成可以點的按鈕 */
         return '<div><span class="kw">'+(p.k?'<span class="kl">'+esc(p.k)+'</span>':'')+(isU?'<a class="kv tlink" href="'+esc(p.v)+'" target="_blank" rel="noopener noreferrer">'+esc(host(p.v))+' ↗</a>':'<span class="kv">'+esc(p.v)+'</span>')+'</span><button class="tcp" type="button" data-tcopy data-v="'+esc(p.v)+'">複製</button></div>'}).join('');
     }).catch(function(){var b=E('tkv-'+t.id);if(b)b.innerHTML='<div><span class="kw"><span class="kv">解不開，請回報</span></span></div>'});
-    (t.files||[]).forEach(function(f,j){imgUrl(f).then(function(u){if(seq!==popSeq)return;var b=E('tim-'+t.id+'-'+j);if(b){b.style.aspectRatio='';b.innerHTML='<img alt="'+esc(t.t)+' 票面 '+(j+1)+'" src="'+u+'">'}})
+    /* 原始 PDF：解密成檔案，點下去用手機的 PDF 檢視器開，裡面的連結可以點 */
+    docsOf(t).forEach(function(f,j){imgUrl(f).then(function(u){if(seq!==popSeq)return;var a=E('tpd-'+t.id+'-'+j);if(a){a.href=u;a.textContent='開啟原始 PDF（連結可以點）↗'}})
+      .catch(function(e){var a=E('tpd-'+t.id+'-'+j);if(a)a.textContent=e&&e.message==='net'?'PDF 載入失敗：確認網路':'PDF 解不開，請回報'})});
+    imgsOf(t).forEach(function(f,j){imgUrl(f).then(function(u){if(seq!==popSeq)return;var b=E('tim-'+t.id+'-'+j);if(b){b.style.aspectRatio='';b.innerHTML='<img alt="'+esc(t.t)+' 票面 '+(j+1)+'" src="'+u+'">'}})
       .catch(function(e){var b=E('tim-'+t.id+'-'+j);if(b)b.textContent=e&&e.message==='net'?'載入失敗：確認網路後再開一次':'解不開，請回報'})});
   }
   pop.addEventListener('click',function(e){
@@ -1503,6 +1510,7 @@ document.getElementById('toTop').addEventListener('click',function(){window.scro
     if(c){var v=c.getAttribute('data-v')||c.parentNode.querySelector('.kv').textContent,ok=function(){c.textContent='已複製';setTimeout(function(){c.textContent='複製'},1500)};
       var sel=function(){var r=document.createRange();r.selectNodeContents(c.parentNode.querySelector('.kv'));var s=getSelection();s.removeAllRanges();s.addRange(r)};
       try{navigator.clipboard.writeText(v).then(ok,sel)}catch(err){sel()}return}
+    var pd=e.target.closest('a.tpdf');if(pd&&pd.getAttribute('href')==='#'){e.preventDefault();return}
     var z=e.target.closest('[data-tzoom]');if(z&&z.querySelector('img')){z.classList.toggle('zoom');z.scrollTop=0;z.scrollLeft=0}
   });
 

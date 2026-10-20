@@ -15,10 +15,46 @@
    "note": "第一次搭地鐵刷 QR 才開始算 26 小時；天守閣售票處出示可打折",
    "d2": "",
    "sec": {
-    "iv": "u8LMlxvH4j9O7T5o",
-    "ct": "axDrow+Ca0m79i0zOwlBOkA9WKNb8JRfBv5bl1BpAGzLKTbcFPIVVbbdJo+JncMOAX6TaX0VhyRVSmwUVQbiB8QOO//Zf8Uhury7V1qckR/fAN713nun5H8x1ToGIE1UY1S6syVq9pjqBiV8+uNEezn69JTTdvYv5ssVXnGE1i9NwcWGYI1aFj1nko3C/vCDSg=="
+    "iv": "IChJILjwyCxV2W5P",
+    "ct": "GDp73tdjmnm/0xv8Ve91LkqEloQji8rZ1V4/oHSL3IqOyYExhX8E14CrSoMNbS7YuotPnZf5RTWOlmsgPlI4difKGquRmhlodLNFOUSDmleNZjY4/kF34siHM1BDwWLD8aHAxmdhQ78Z6VKHmibT2vFzx5TLUFOjFSYB4e9ULHq5BPrRaEUdIJpZPlIlvaM0RA=="
    },
-   "files": [],
+   "files": [
+    {
+     "a": "metro26-pdf-1c7ddab604",
+     "m": "application/pdf",
+     "doc": true
+    },
+    {
+     "a": "metro26-4640bbe877",
+     "m": "image/jpeg",
+     "w": 1240,
+     "h": 1755
+    },
+    {
+     "a": "metro26-4e71a53048",
+     "m": "image/jpeg",
+     "w": 1240,
+     "h": 1755
+    },
+    {
+     "a": "metro26-d0291047c9",
+     "m": "image/jpeg",
+     "w": 1240,
+     "h": 1755
+    },
+    {
+     "a": "metro26-b2ccd16af6",
+     "m": "image/jpeg",
+     "w": 1240,
+     "h": 1755
+    },
+    {
+     "a": "metro26-e7ebe0069f",
+     "m": "image/jpeg",
+     "w": 1240,
+     "h": 1755
+    }
+   ],
    "at": 0
   }
  ]
