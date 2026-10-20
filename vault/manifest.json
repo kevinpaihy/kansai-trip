@@ -1,0 +1,25 @@
+{
+ "v": 1,
+ "salt": "0miJb1EEdws+LIL6T5ouIw==",
+ "iter": 310000,
+ "chk": {
+  "iv": "AaTJlPZoOtnda+hf",
+  "ct": "Dud6GWnasZ+UVCS2ZqsCy2qpZhlDWA=="
+ },
+ "entries": [
+  {
+   "id": "metro26",
+   "t": "大阪地鐵 26 小時券（Klook）",
+   "d1": "2026-10-26",
+   "bk": "metro26",
+   "note": "第一次搭地鐵刷 QR 才開始算 26 小時；天守閣售票處出示可打折",
+   "d2": "",
+   "sec": {
+    "iv": "u8LMlxvH4j9O7T5o",
+    "ct": "axDrow+Ca0m79i0zOwlBOkA9WKNb8JRfBv5bl1BpAGzLKTbcFPIVVbbdJo+JncMOAX6TaX0VhyRVSmwUVQbiB8QOO//Zf8Uhury7V1qckR/fAN713nun5H8x1ToGIE1UY1S6syVq9pjqBiV8+uNEezn69JTTdvYv5ssVXnGE1i9NwcWGYI1aFj1nko3C/vCDSg=="
+   },
+   "files": [],
+   "at": 0
+  }
+ ]
+}
