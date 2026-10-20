@@ -1441,9 +1441,10 @@ document.getElementById('toTop').addEventListener('click',function(){window.scro
     }else if(hasRt&&ready&&(db||STATIC)){h='<div class="tixempty">還沒有票券。'+(STATIC?'把電子票截圖、QR code 或確認信 PDF 傳給 Claude，加密後會放上來。':'')+(canWrite?'按「新增票券」放電子票截圖、QR code 或確認信 PDF；下面列了已經訂好、還沒放憑證的項目。':'')+'</div>'}
     L.innerHTML=h;
     var S=E('tixSug'),miss=LORDER.filter(function(k){return !byKeys([k]).length});
-    if(canWrite&&miss.length){
-      S.innerHTML='<div class="tixh">還沒放憑證的預訂（'+miss.length+'）</div><div class="blist tlist">'+miss.map(function(k){var l=LINKS[k];
-        return '<div class="brow" style="cursor:default"><span class="bd">'+md(l.d)+(l.d2?'–'+(+l.d2.slice(8,10)):'')+'</span><span class="bt">'+esc(l.t)+(l.s?'<small>'+esc(l.s)+'</small>':'')+'</span><button class="tadd" type="button" data-tadd="'+k+'">＋ 放憑證</button></div>'}).join('')+'</div>';
+    /* 待補清單：網站版（STATIC）也要留著，當作「還有哪些票沒傳給 Claude」的檢查表 */
+    if((canWrite||(STATIC&&ready))&&miss.length){
+      S.innerHTML='<div class="tixh">還沒放憑證的預訂（'+miss.length+'）</div>'+(canWrite?'':'<div class="hint" style="margin:-2px 0 6px">把這些的截圖、PDF 或訂單號碼傳給 Claude，放上來之後就會從這裡消失。</div>')+'<div class="blist tlist">'+miss.map(function(k){var l=LINKS[k];
+        return '<div class="brow" style="cursor:default"><span class="bd">'+md(l.d)+(l.d2?'–'+(+l.d2.slice(8,10)):'')+'</span><span class="bt">'+esc(l.t)+(l.s?'<small>'+esc(l.s)+'</small>':'')+'</span>'+(canWrite?'<button class="tadd" type="button" data-tadd="'+k+'">＋ 放憑證</button>':'<span class="st todo">待補</span>')+'</div>'}).join('')+'</div>';
     }else S.innerHTML='';
   }
 
