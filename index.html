@@ -762,7 +762,7 @@ var DAYS=[
   {w:'19:40',x:'走回飯店放戰利品（5 分）',k:'move',rt:['Bic Camera Namba','大阪市中央区高津3-3-33 東方レジデンス','walking']},
   {w:'19:50',x:'道頓堀：拉麵或大阪燒（約 1 hr）',k:'meal',m:'晚餐',q:'Dotonbori Osaka'},
   {w:'20:50',x:'走到日本橋船着場換票（5 分）',k:'move',rt:['Dotonbori Osaka','日本橋船着場 道頓堀','walking']},
-  {bk:['cruise','enjoy'],w:'21:00',r:1,x:'道頓堀 Wonder Cruise（約 20 分，樂享券 3/3）',q:'日本橋船着場 道頓堀',b:['已訂','ok']},
+  {bk:['cruise','enjoy'],g:'https://maps.app.goo.gl/KkzuG5ffUT2R9fCw9',w:'21:00',r:1,x:'道頓堀 Wonder Cruise（約 20 分，樂享券 3/3）',q:'日本橋船着場 道頓堀',b:['已訂','ok']},
   {w:'21:20',x:'#C-pla 心齋橋筋店：扭蛋（營業到 23:00）',q:'#C-pla 心斎橋筋'},
   {w:'22:20',x:'步行到鴨尽（約 10 分）',k:'move',rt:['#C-pla 心斎橋筋','鴨尽 難波','walking']},
   {bk:'kamo',w:'22:30',r:1,x:'炭火燒鳥 鴨尽 難波店',k:'meal',m:'宵夜',q:'鴨尽 難波',b:['已訂','ok']},
@@ -861,7 +861,7 @@ var BOOK=[
  {k:'iroha',d:'10/27',t:'すきやき いろは 北店',s:'19:15 兩位',st:'ok'},
  {k:'airporter',d:'10/29',t:'Klook 行李寄送 Laon Inn → 關西機場 T1（Airporter）',s:'09:00 前交件，JAL ABC 櫃台領；還要問飯店能否代交、幾點送達',st:'ok'},
  {k:'ecbo-x',d:'10/29',t:'取消 ecbo cloak 藤森 7-Eleven 預約',s:'改用行李寄送後就用不到，看一下取消規定',st:'todo'},
- {k:'cruise',d:'10/26',t:'道頓堀 Wonder Cruise',s:'21:00 班（樂享券 3/3）',st:'ok'},
+ {k:'cruise',d:'10/26',t:'道頓堀 Wonder Cruise',s:'21:00 班（用 Have Fun Pass 3/3，不用另外憑證）',st:'ok',nov:1},
  {k:'kamo',d:'10/26',t:'炭火燒鳥 鴨尽 難波店',s:'22:30',st:'ok'},
  {k:'nara',d:'10/27',t:'ecbo cloak 7-Eleven 近鐵奈良站西店',s:'預約 09:00–14:00，實際 09:10 寄、12:45 領',st:'ok'},
  {k:'saki',d:'10/27',t:'PATISSERIE SAKI INOUE',s:'21:40，打電話問能否預約',st:'todo'},
@@ -909,7 +909,8 @@ DAYS.forEach(function(d,di){
     if(r.k==='stay')h+='<span class="mtag stay">住宿</span>';
     h+=esc(r.x);
     if(r.b)h+='<span class="badge '+r.b[1]+'">'+esc(r.b[0])+'</span>';
-    if(r.rt)h+='<a class="lk" target="_blank" rel="noopener" href="'+gr(r.rt)+'">路線 ↗</a>';
+    if(r.g)h+='<a class="lk" target="_blank" rel="noopener" href="'+r.g+'">上船點 ↗</a>';
+    else if(r.rt)h+='<a class="lk" target="_blank" rel="noopener" href="'+gr(r.rt)+'">路線 ↗</a>';
     else if(r.q)h+='<a class="lk" target="_blank" rel="noopener" href="'+gq(r.q)+'">地圖 ↗</a>';
     if(r.bk)h+='<span class="tixslot" data-bk="'+[].concat(r.bk).join(' ')+'"></span>';
     if(r.i)h+='<button class="ib" aria-label="補充說明" data-info>ⓘ</button><div class="info">'+esc(r.i)+'</div>';
@@ -1293,7 +1294,7 @@ document.getElementById('toTop').addEventListener('click',function(){window.scro
   function md(s){return s?(+s.slice(5,7))+'/'+(+s.slice(8,10)):''}
   function range(t){return md(t.d1)+(t.d2&&t.d2!==t.d1?'–'+(+t.d2.slice(8,10)):'')}
   var LINKS={},LORDER=[];
-  BOOK.forEach(function(b){if(b.st!=='ok')return;LINKS[b.k]={t:b.t,d:iso(b.d),s:b.s};LORDER.push(b.k)});
+  BOOK.forEach(function(b){if(b.st!=='ok'||b.nov)return;LINKS[b.k]={t:b.t,d:iso(b.d),s:b.s};LORDER.push(b.k)});
   HINT.forEach(function(h){LINKS[h.k]={t:h.t,d:iso(h.d),d2:h.d2?iso(h.d2):'',s:h.s};LORDER.push(h.k)});
   LORDER.sort(function(a,b){return LINKS[a].d.localeCompare(LINKS[b].d)});
 
