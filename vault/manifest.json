@@ -15,8 +15,8 @@
    "bk": "h1",
    "note": "入住 16:00 起 · 自助入住（密碼在入住信）· 可部分退款",
    "sec": {
-    "iv": "C92bG9LdnZ7ChS03",
-    "ct": "hwGzTL3L9ipDMEXO/Nzg2crZ92WM6VtusBnZqbTly/J8xKvcS2AbvREtJsvobXM/jQ+V3voIP8TDCmkOnLgp5Sf1JYSx"
+    "iv": "z27hoctODqaVvFDY",
+    "ct": "WPfEhG0598jdQKzUuciTBK8rHmxNEohniK8TZAwHzL0CeOdQty3DBuC3Fi1hObq7aq4pYXOpDduvh3pE6CEi8sDFlQh/"
    },
    "files": [
     {
@@ -36,8 +36,8 @@
    "bk": "enjoy",
    "note": "每人一張 QR，第一次掃描起 7 天內用 3 個設施：1/3 INNN 巴士、2/3 HARUKAS 300、3/3 Wonder Cruise · Trip.com",
    "sec": {
-    "iv": "gNiTmWOl9gdHM7R3",
-    "ct": "UO5l6uMXpmT+vARnhkYXn4GgV+NlEeUBskjCAHgSjq/DazWtAIvBz7xhbWdYns0Qe4JeF9vDC3vB1DaJcBFwiOuCB1yQLjGbqpl4OUnoi5xNcp3Mv4Us/UARCbjyZOw="
+    "iv": "lGglTUt85qnLTXdq",
+    "ct": "I9Xgo9YGfjR2eo3v1OOqbHJ2oY/Z6h8w2vQPo4PU3XKAuKgxNl3IYSTyANe5t0oVvQ2cTp0pJQDEGV6ZsBeQAw39xXaP/0GMn5gRWVWFHMXwYwgs8GBMT69TzwwQ9FI="
    },
    "files": [
     {
@@ -63,8 +63,8 @@
    "note": "兩人各一張 QR，入園閘門各自掃 · 第 1 張你、第 2 張女朋友 · KKday",
    "d2": "",
    "sec": {
-    "iv": "3Tha8DN4qWV+W+L5",
-    "ct": "X6jyxeGrpJUaIJTelKSYj+pm/5riQIobX2SVKXLxcYaWBvlZbS/7sLSoNzBnaLI="
+    "iv": "zjQQaIiQ/UdN7G/8",
+    "ct": "av2m9cXE77VL1QXsPEM0FoZqWXPsnvLIHx/av0YTthtxcqo1m5/t0u0ccs5LYXw="
    },
    "files": [
     {
@@ -90,8 +90,8 @@
    "note": "瑪利歐賽車 09:40–10:10 · 任天堂世界入場 09:40–10:40 · 咚奇剛礦車 10:10–10:40 · 侏儸紀或 JAWS、禁忌之旅或飛天翼龍各選一（不限時）· 每人一張，在設施入口給工作人員掃",
    "d2": "",
    "sec": {
-    "iv": "gg0SPCw47IUtdVUw",
-    "ct": "I3Z5ANrmoCIq9SvmgvtxIGWayIIqDOh28QHdNsQgQhgy2vI8WZ2ccIOJfrSRU+g="
+    "iv": "wiBSorheHdN+LeQ/",
+    "ct": "5C6h69LWcRy96Qk/2KMBnBllVR0zA/M7nLr0eGJMxogvQFN+b1pQW+UBd7iWYwM="
    },
    "files": [
     {
@@ -117,8 +117,8 @@
    "note": "第一次搭地鐵刷 QR 才開始算 26 小時；天守閣售票處出示可打折",
    "d2": "",
    "sec": {
-    "iv": "E2+SDzcWlxXbejnD",
-    "ct": "+9HWC5HAV9EaEYpiZbQCN+mh5+q/JEDOnSCu/JpmokzkMbtyfR6O1nlswG3L803M2kVq4aRmUWza9nFmknqms3WtuFm30tyUIJKUnuVOK36QeLduJqJE57gApMzAjEGnxk5Eb5ROnbBgI+T78/47p0EoxwemLB3DrHD2R4bFU54CDICxl750jCCsT15fC1Z9GA=="
+    "iv": "wkzeOQJKw7+XK8vH",
+    "ct": "MhwLOJ7y5TfbBn7+TozAdA+pnf8KOj1kJsiVvhelq4IzP41X9BgJeFt/XxJK9UhtkfflI+uSneCF7vO+1CoSg6IlYJ1PN/5T+HBmjt43k4ccgy3qkd4a8O2Jpz3z11VAo4n+aoTtxdEqU6Cc/iUOHnQPv6s87DVwInCDT6w9MEdhjiXy3ZPq/ZDJ3gL5FGB0Dg=="
    },
    "files": [
     {
@@ -160,6 +160,20 @@
    "at": 4
   },
   {
+   "id": "kamo",
+   "t": "炭火燒鳥 鴨尽 難波店 2 位",
+   "d1": "2026-10-26",
+   "bk": "kamo",
+   "note": "10/26 22:30 · 禁菸桌席、最多 2 小時 · お通し 385 円／人 · 食べログ預約",
+   "d2": "",
+   "sec": {
+    "iv": "cPmdgFN3dzWgH9Jp",
+    "ct": "nkWRCgFy9Hb/oCL+vTP29KDs2Lb2oMsOZeVcVvTHNihFDKKB+H7JGXBwNNSEQCxnljSmB0SFIVNupbO2RqZadCXdj3o9omcgCKUcOWK0oHjy7aT5DwK/eulQhs7famkTrnnxFBmKm4s7AXColdokzUyw1Ol1uVmr2lau+gmrigG3gx3buQ9LJpvXBkSEZ30aWhPb46hWPjg4Al9MpeM+iXXEVtL6SOGEU3jj"
+   },
+   "files": [],
+   "at": 5
+  },
+  {
    "id": "h2",
    "t": "Laon Inn Gion Nawate（京都 2 晚）",
    "d1": "2026-10-27",
@@ -167,8 +181,8 @@
    "bk": "h2",
    "note": "入住 15:00 起 · 不可退款",
    "sec": {
-    "iv": "JIuMmRc80xyrzkhc",
-    "ct": "gfnBwAQyH14fBQL64dmMFqe5uTO9uNBW+vxOofPZsboYwuyhPABRCbCzBzwVK3MoYTydBtQutrP3K64LilNxONVanHyl"
+    "iv": "MABcJzQiSd/M0Unu",
+    "ct": "jyY1CL7DBnwTiplUix/oeg6CsmnUFeN/5FL5slFxcu/E5nclAL9WvsAu3+IuMH3NwMyugW46hRLO7z9PEPIHkcuU2qFT"
    },
    "files": [
     {
@@ -178,7 +192,21 @@
      "h": 1907
     }
    ],
-   "at": 5
+   "at": 6
+  },
+  {
+   "id": "iroha",
+   "t": "すきやき いろは 北店 2 位",
+   "d1": "2026-10-27",
+   "bk": "iroha",
+   "note": "10/27 19:15 · 套餐 すき焼き ¥9,900 × 2 · 改期取消前一天打電話",
+   "d2": "",
+   "sec": {
+    "iv": "2H+V/TF5qe2+ckwM",
+    "ct": "5w2hhiSRRaRUJTI5r8ViMZoX2txSArYREWz6wM1J47ypz6WUSB+ugH2Q3035W0as2rWGia+/x/nmCzyiQVDvS4mrw7DR4h99Ck0sm8MeBUDx5py1phfcDsqsOA+ibPDXBvn31RO0hjJPUoCGRLDPxRTVEeru4sPbefnNPs/hgR1E1APG62qZ8UARuARAXZHloOG/3cYdIiBnSAinOOqBLiKCfxFeE0Q="
+   },
+   "files": [],
+   "at": 7
   },
   {
    "id": "roji",
@@ -188,11 +216,11 @@
    "note": "10/28 09:00 · 只收現金 · 店家已回信確認",
    "d2": "",
    "sec": {
-    "iv": "HkQ616lMTELA+2IP",
-    "ct": "UTaJYjONb+Lg7o/1xFDEh5wn9gH8LqInaVGjZIJLqHMfR58xyVWOcD2Zx/H0hj1rj2TQDkH/FFGCUst5la/uCU6zLMbKEU4YUu7Sr3WKcEWaTdDL9KI9KFmBAcKJ5JC16MvuSpLIS4QXrnDpjc9C08y2iCpteh3EdfkXLD26cU8U3Isr3XxBAw3Xqm2d1fB8GranQM9e"
+    "iv": "OOPUInqaYAwj1VAj",
+    "ct": "nIZ7Zu3np/8iAiYMsDqasTW8v+mKd5rFF38MfVJADp07XhZRVNiC0n8B07jTohUwzXPEPLb+LHliY/zPoCvKFTsK8skiaMQNmTplhpOsArtKexWf9wWOXOs2UaB6xn70Py+d6Iq3OnKGSVgSdXqT4+AE6hcn86miEKNn9MzDWEwhdrgJ5c/mGyESEt96Sl89m/9ms2fM"
    },
    "files": [],
-   "at": 6
+   "at": 8
   },
   {
    "id": "haruka",
@@ -202,11 +230,11 @@
    "note": "WEST QR 電子車票；單程不能中途下車，坐到關西空港",
    "d2": "",
    "sec": {
-    "iv": "8pRlVz1eURjvFHkK",
-    "ct": "HxU1a6B53zA85Bu7TB6YIJYqcYxhjRBKSz3A5Qgwvb0YKE1UnXp+maaSztMbzpZIVFJfJ4PKtrGJfvlK8rE="
+    "iv": "rKDAPEKe8ty8cgEL",
+    "ct": "8aUx8EIly1ZDir7oEbTRQ6HPzqSl2eqAcCNITnA20dmjvlYpwOqU+ZRZqWrmgySb208Srn2Kihh22PaKTq8="
    },
    "files": [],
-   "at": 7
+   "at": 9
   }
  ]
 }
