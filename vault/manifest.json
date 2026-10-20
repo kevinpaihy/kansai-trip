@@ -15,8 +15,8 @@
    "bk": "h1",
    "note": "入住 16:00 起 · 自助入住（密碼在入住信）· 可部分退款",
    "sec": {
-    "iv": "Lz1jjrtDtu1krS7t",
-    "ct": "TPPAl9puyDxhJVU52WX59qzhEUkRwpaS6Rbqcz6+5fUGMtcnl0QCtjBppY1njnfQn8dKMHrHYk+2i7GG07JglgRku2jx"
+    "iv": "LYRlOE3DzaJ9qPqw",
+    "ct": "C3xRwTt44MV25Ik4OQdy2KlKoK0Bof91eFdfBaeLplBHPedQFXMA4fE+DFoOjSAO2qiuI/e43U/G5rSlBkyBONJj2D4u"
    },
    "files": [
     {
@@ -36,8 +36,8 @@
    "note": "第一次搭地鐵刷 QR 才開始算 26 小時；天守閣售票處出示可打折",
    "d2": "",
    "sec": {
-    "iv": "dMUu6E1QLEHgS7Ly",
-    "ct": "sVyNjbjgXAJCWiaPJzksiGw5B5z41FL9J6yg/StMtcsYh95D6QkvXRcq6HT97hvyhaTY/4E7C2UHYuIn6nw4Z1XOpPfeJE5nMZG8kV57nBEGsTZ6vtQ5N47R88+6leQukQtXbMUcGpskZP8iOy4K23/haBYJ1sLOjojqgd5wQ8pYXrnRQSFpdsIaC72UWyatwA=="
+    "iv": "EZYvz9ICx3azZX2D",
+    "ct": "weoDTk0qcHllz4crieb/RRN5MnYU/knCZt1zkxe0K7lmImk3piD04d2HdfBjRBO5J8wAb4JkbieAYUdgiJdK+Pm54L/idQaUEff8FECbWGgZswLp86iDMpvD813Jh/e36C74BwFSXvVREmzHfl6/H2WRB866xREG3DND9HX8uFRlupyKPDVHq06xTO+iN85iqA=="
    },
    "files": [
     {
@@ -86,8 +86,8 @@
    "bk": "h2",
    "note": "入住 15:00 起 · 不可退款",
    "sec": {
-    "iv": "f5s5rkbdLU3m3IqM",
-    "ct": "k0uPZ1KIhSIFMVJDkwv6a6XrGfiRA0LrMXIrN6Fe2aqoFUqqDepAnHJal+Jq1vI+GYEtteKS0lXjmyq7GqQP9qB8eITj"
+    "iv": "VO4NektzONJDfAQD",
+    "ct": "JrT1/AIySRmYT3aTuGsGVQKKXzbO8uI0ez9fPUqBcnBTKxN+QhGS7C0AwxrXI9Xpf3HEVZOp0regsPrCJuQ8H87CqkUM"
    },
    "files": [
     {
@@ -98,6 +98,20 @@
     }
    ],
    "at": 2
+  },
+  {
+   "id": "haruka",
+   "t": "特急 Haruka 優惠票 京都 → 關西機場 ×2",
+   "d1": "2026-10-29",
+   "bk": "haruka",
+   "note": "WEST QR 電子車票；單程不能中途下車，坐到關西空港",
+   "d2": "",
+   "sec": {
+    "iv": "GGnm5L3Lkk/KJcoX",
+    "ct": "Qdv4KVmwH+SnlpIdnJaU6P43KJcdUnliV+i9U+LJPMKlCVg2kbYWfu4MCEVXY4liBZozVGklsE9gxtfEYFw="
+   },
+   "files": [],
+   "at": 3
   }
  ]
 }
