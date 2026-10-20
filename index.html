@@ -835,7 +835,7 @@ var DAYS=[
  strip:['<b>行李</b>：兩件行李 07:30 交給 Laon Inn 櫃台，由 Airporter 送到關西機場 T1，傍晚在 JAL ABC 櫃台領','<b>回程 亞航 D7 379</b>：關西 T1 20:45 → 桃園 T1 23:05（3 hr 20）'],
  rows:[
   {w:'07:10',x:'自理（前一晚買好，在房間吃）',k:'meal',m:'早餐'},
-  {bk:'airporter',w:'07:30',x:'退房，兩件行李交給飯店櫃台（Airporter 09:00 前來收）',q:'Laon Inn Gion Nawate 16-1 Yamatocho Higashiyama Kyoto',b:['已預約','ok'],i:'Klook「大阪／京都飯店至關西機場行李運送」，營運商 Airporter；當日送達要 09:00 前交件，每件長寬高合計 ≤180 cm、≤30 kg。'},
+  {bk:'airporter',w:'07:30',x:'退房，兩件行李交給飯店櫃台（Airporter 09:00 前來收）',q:'Laon Inn Gion Nawate 16-1 Yamatocho Higashiyama Kyoto',b:['已預約','ok'],i:'Airporter 訂單（Klook 下單）：09:00 前交件，18:00 送到關西機場 T1 4F JAL ABC 櫃台。行李掛牌要寫訂單號碼（在票券分頁）。每件長寬高合計 ≤180 cm、≤30 kg。'},
   {w:'07:35',x:'空手走到祇園四條站（3 分）',k:'move',rt:['Laon Inn Gion Nawate 16-1 Yamatocho Higashiyama Kyoto','Gion-Shijo Station','walking']},
   {w:'07:37',x:'京阪（往大阪方向）祇園四條 → 伏見稻荷（約 9 分）',k:'move',rt:['Gion-Shijo Station','Fushimi-Inari Station','transit']},
   {w:'07:50',x:'伏見稻荷大社千本鳥居（09:15 前下山）',q:'Fushimi Inari Taisha'},
@@ -854,12 +854,13 @@ var DAYS=[
 ];
 
 var BOOK=[
- {k:'fl',d:'10/24',t:'亞航 D7 378 / D7 379 來回機票',s:'桃園 T1 15:40 去 · 關西 T1 20:45 回',st:'ok'},
+ {k:'fl',d:'10/24',t:'亞航 D7 378 / D7 379 來回機票',s:'桃園 T1 15:40 去 · 關西 T1 20:45 回',st:'ok',nov:1},
  {k:'h1',d:'10/24',t:'東方レジデンス（大阪 3 晚）',s:'入住 16:00 · 可部分退款',st:'ok'},
  {k:'h2',d:'10/27',t:'Laon Inn Gion Nawate（京都 2 晚）',s:'入住 15:00 · 不可退款',st:'ok'},
  {k:'usj',d:'10/25',t:'USJ 快速通關 4 ～Minecart & JAWS～',s:'瑪利歐賽車 09:40、礦車 10:10',st:'ok'},
  {k:'iroha',d:'10/27',t:'すきやき いろは 北店',s:'19:15 兩位',st:'ok'},
- {k:'airporter',d:'10/29',t:'Klook 行李寄送 Laon Inn → 關西機場 T1（Airporter）',s:'09:00 前交件，JAL ABC 櫃台領；還要問飯店能否代交、幾點送達',st:'ok'},
+ {k:'airporter',d:'10/29',t:'Klook 行李寄送 Laon Inn → 關西機場 T1（Airporter）',s:'09:00 前交件，18:00 送到 T1 JAL ABC 櫃台',st:'ok'},
+ {k:'airporter-fix',d:'10/29',t:'Airporter：航班改成 D7 379，上傳行李照片和訂房確認',s:'訂單上航班寫成 AK177；上傳連結在票券分頁 Airporter 那張',st:'todo'},
  {k:'ecbo-x',d:'10/29',t:'取消 ecbo cloak 藤森 7-Eleven 預約',s:'改用行李寄送後就用不到，看一下取消規定',st:'todo'},
  {k:'cruise',d:'10/26',t:'道頓堀 Wonder Cruise',s:'21:00 班（用 Have Fun Pass 3/3，不用另外憑證）',st:'ok',nov:1},
  {k:'kamo',d:'10/26',t:'炭火燒鳥 鴨尽 難波店',s:'22:30',st:'ok'},
