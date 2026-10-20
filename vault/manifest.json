@@ -8,6 +8,27 @@
  },
  "entries": [
   {
+   "id": "h1",
+   "t": "東方レジデンス（大阪 3 晚）",
+   "d1": "2026-10-24",
+   "d2": "2026-10-27",
+   "bk": "h1",
+   "note": "入住 16:00 起 · 自助入住（密碼在入住信）· 可部分退款",
+   "sec": {
+    "iv": "rw/IzKxMXQpRTKjn",
+    "ct": "D88b24xobKynQ7ZU021gYLFFb+6zyCaZF+6znYH8hMs72NMjX9ByGHnCEysdHzMqyzpHjKof+nD3OLw3c8olwlhVxwUs"
+   },
+   "files": [
+    {
+     "a": "h1-7cdc06c8a4",
+     "m": "image/jpeg",
+     "w": 920,
+     "h": 2000
+    }
+   ],
+   "at": 0
+  },
+  {
    "id": "metro26",
    "t": "大阪地鐵 26 小時券（Klook）",
    "d1": "2026-10-26",
@@ -15,8 +36,8 @@
    "note": "第一次搭地鐵刷 QR 才開始算 26 小時；天守閣售票處出示可打折",
    "d2": "",
    "sec": {
-    "iv": "IChJILjwyCxV2W5P",
-    "ct": "GDp73tdjmnm/0xv8Ve91LkqEloQji8rZ1V4/oHSL3IqOyYExhX8E14CrSoMNbS7YuotPnZf5RTWOlmsgPlI4difKGquRmhlodLNFOUSDmleNZjY4/kF34siHM1BDwWLD8aHAxmdhQ78Z6VKHmibT2vFzx5TLUFOjFSYB4e9ULHq5BPrRaEUdIJpZPlIlvaM0RA=="
+    "iv": "s+V+6+NIBx9jAsGt",
+    "ct": "n0j1zot+UVmkUqER5L7futLZOrbGv0vBNxkpv05Clbf3t5xeEutSb209HC4sxeHNdAUqQ06RQArsJMhokpEil2mQ5JX783BXmZrzkgeU3hIMApK52+YDVaYs+xlTwLdZKj7H7Vkg9vPlB9tLusXaQ1RkUJjUp5seVMAZpPGy0POSSDwq75ehfvpHtU0YhNEEQA=="
    },
    "files": [
     {
@@ -55,7 +76,28 @@
      "h": 1755
     }
    ],
-   "at": 0
+   "at": 1
+  },
+  {
+   "id": "h2",
+   "t": "Laon Inn Gion Nawate（京都 2 晚）",
+   "d1": "2026-10-27",
+   "d2": "2026-10-29",
+   "bk": "h2",
+   "note": "入住 15:00 起 · 不可退款",
+   "sec": {
+    "iv": "t2bDMXgJAjWYPvTn",
+    "ct": "z8dnmLQLQxTTZKeH8PT+vmuvJ7TMtU6CGYPBa58qGXN3Wgc9lBv3myCwzDkH/mLqCB/SVCE8F4AvVgb8ft6YdUaDgME0"
+   },
+   "files": [
+    {
+     "a": "h2-ab8ed7971a",
+     "m": "image/jpeg",
+     "w": 858,
+     "h": 1907
+    }
+   ],
+   "at": 2
   }
  ]
 }
