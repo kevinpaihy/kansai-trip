@@ -8,6 +8,29 @@
  },
  "entries": [
   {
+   "id": "vjw",
+   "t": "Visit Japan Web 入境 QR ×2",
+   "d1": "2026-10-24",
+   "bk": "vjw",
+   "note": "降落後入境審查、海關申報出示 · 第 1 張你（PAI HAO YU）、第 2 張女朋友（YE XIU HUA）",
+   "d2": "",
+   "files": [
+    {
+     "a": "vjw-437ac6c6c7",
+     "m": "image/jpeg",
+     "w": 1640,
+     "h": 1144
+    },
+    {
+     "a": "vjw-2de12b792e",
+     "m": "image/jpeg",
+     "w": 1684,
+     "h": 1150
+    }
+   ],
+   "at": 0
+  },
+  {
    "id": "h1",
    "t": "東方レジデンス（大阪 3 晚）",
    "d1": "2026-10-24",
@@ -15,8 +38,8 @@
    "bk": "h1",
    "note": "入住 16:00 起 · 自助入住（密碼在入住信）· 可部分退款",
    "sec": {
-    "iv": "/FGDpNicwVF5ZEar",
-    "ct": "Ol41zsaqlz+8hvVtnPvW1GPtCin2o08GfxtSu3Rt/Nj9YZDNoe7YrxNsAyu5RaZ3XIkKUL5ICzPKBQjoOJupbcaPtLIQ"
+    "iv": "IQuECdUxzpQ9eNZe",
+    "ct": "5MaNg8S3Z5S5uy3IXp4N+JQcAG6jRi+3KlEst0jjhztUiuOTlKedOj34ObPgCHE8oBZQptstqaStbt9aAU9PlqXzSR0e"
    },
    "files": [
     {
@@ -26,7 +49,7 @@
      "h": 2000
     }
    ],
-   "at": 0
+   "at": 1
   },
   {
    "id": "enjoy",
@@ -36,8 +59,8 @@
    "bk": "enjoy",
    "note": "每人一張 QR，第一次掃描起 7 天內用 3 個設施：1/3 INNN 巴士、2/3 HARUKAS 300、3/3 Wonder Cruise · Trip.com",
    "sec": {
-    "iv": "P+Hh8CqmYozBtG2K",
-    "ct": "1saTAjOmN4a6IsOeXtowk0iRfFQothbcR43LrlJ+Wch0ppbDJyWTlLJgYCxnw+UfBjQGNZl//2zVZKCCy/NP04CJWx/dKyewpscIz/SPqs+pp5+tnNNaGwkQ+wy9eTI="
+    "iv": "V+mwQV7Pen50G2J+",
+    "ct": "5CaQrYdmBnV10rwJTCnJrzOFRySucMyoDT2kt2iLprv2kWNeukbQ4fKc2XewALABH+JeNgRrxPHqxbtrQOOcZFQfgGhaT71LlikszNfX5OPLf3u2QV4VpH1Zo9Jumig="
    },
    "files": [
     {
@@ -53,7 +76,7 @@
      "h": 1619
     }
    ],
-   "at": 1
+   "at": 2
   },
   {
    "id": "usjin",
@@ -63,8 +86,8 @@
    "note": "兩人各一張 QR，入園閘門各自掃 · 第 1 張你、第 2 張女朋友 · KKday",
    "d2": "",
    "sec": {
-    "iv": "fe5PpQNaJ8hLD3KF",
-    "ct": "cEEyul1nYWsL5n7HN7MfExBEjCIVcN7ATpX+gKoqQgRU8g3J17wpZW11N+Fq/TM="
+    "iv": "iwfl2vX68GQJkCKc",
+    "ct": "ZV34C18SVNzT8GV0DNjXoiqgcjbEkTG2RzFYJDU7jn/I+sEztG8xQDg8fyK/jeo="
    },
    "files": [
     {
@@ -80,7 +103,7 @@
      "h": 1546
     }
    ],
-   "at": 2
+   "at": 3
   },
   {
    "id": "usj",
@@ -90,8 +113,8 @@
    "note": "瑪利歐賽車 09:40–10:10 · 任天堂世界入場 09:40–10:40 · 咚奇剛礦車 10:10–10:40 · 侏儸紀或 JAWS、禁忌之旅或飛天翼龍各選一（不限時）· 每人一張，在設施入口給工作人員掃",
    "d2": "",
    "sec": {
-    "iv": "8wabfX0FY/RXR+7O",
-    "ct": "6mPC+2kU1CeNbm/W/X2tFnfnQVWXseNtwQShSDTA/tVaNy/QuaHwXLEW4ZCZhU4="
+    "iv": "4G2JrNTkADvlsABS",
+    "ct": "3BljyDT8XU3fU4a39pNFq87DONsQbLnJ6cEDGANfihh5MChhFrYxay9rVXLwRqM="
    },
    "files": [
     {
@@ -107,7 +130,7 @@
      "h": 1546
     }
    ],
-   "at": 3
+   "at": 4
   },
   {
    "id": "metro26",
@@ -117,8 +140,8 @@
    "note": "第一次搭地鐵刷 QR 才開始算 26 小時；天守閣售票處出示可打折",
    "d2": "",
    "sec": {
-    "iv": "tvLh3za/q8nqmqqk",
-    "ct": "cM51gev6xyvzdKWJIucqNKIFUWOoxA4e3vVBb+9px5QJ1O1Q0TgDE6ReXILGRkvX6zwtCUVOAaD183FgAUQ8ZSTMKAgkmZvZSCmqxxyca1z6dJuoLtKHZUcqFdNgeyXOg1RHvCGA+3zgv6s41sN9/Jmo46H6TLIeLUTkrCkOjZcHgs3LSsW99xivl9VUk/EHnA=="
+    "iv": "hSq3FKrQ0td92Iqs",
+    "ct": "Aiaky9h5zzpN15dpglnSsRdkPD2KPxruosPYpLm1bWbCXLfRzYbZiQPm4II8aU1opvoNGCigRnYX0KQS1/54fYKMmVlWox3+4k2HbAI1aqr/DpTQc61bOL6mSrFXasms1ewGXIJpqmteQu/LJErCc7dXW2dYNgV8y+TSqOO6dgKqIaKQghk/dA3UoH7y3lbRnA=="
    },
    "files": [
     {
@@ -157,7 +180,7 @@
      "h": 1755
     }
    ],
-   "at": 4
+   "at": 5
   },
   {
    "id": "kamo",
@@ -167,11 +190,11 @@
    "note": "10/26 22:30 · 禁菸桌席、最多 2 小時 · お通し 385 円／人 · 食べログ預約",
    "d2": "",
    "sec": {
-    "iv": "1gA9HDEIDru/VaS/",
-    "ct": "UPv6+tol6XK1RtK53UbeiArdz5wK1NFjI4QcwZtFTY2zjvQKLJ0cByP1VyOojbb4yenscs28D5eXkSSMh7e9URjPZtPmSQ/rnkrV8FSH9LgUkoq9hTgABr1C3Y1vUn4IA0wKdC36EhF9Zje5/n1VbcMhy5euixfKwm4S6+vDb6nKpTmL+AcRua5XIaf7aaJor8TO/pqGxvw2hciEYG8/WqB7Wzc9bD34UFfd"
+    "iv": "UnEKcgcRR/RxNroG",
+    "ct": "ak1riT9/DIrOupe/YftMFphxGy6imvgzlDMXQWGgzX/sFYWtRlRYzIByQ9dgGSwtcMDwF+UQDDlrIRrxKZrZ/X5n/zpE7fqdE3rMFd2t5OZo7MY+TNEXZs1WVHLaQc1zrNNyS6vDnGLYDrJHy1ANaNZNIXjVR8V60Ro4jrH7CZkg7K9tEd/S3oCchClfjv+/XCZ2NFNtIdSSmIGSCnOKwYPrwo16Ht39GJ8S"
    },
    "files": [],
-   "at": 5
+   "at": 6
   },
   {
    "id": "h2",
@@ -181,8 +204,8 @@
    "bk": "h2",
    "note": "入住 15:00 起 · 不可退款",
    "sec": {
-    "iv": "7yVw6xQOqjsnXCLm",
-    "ct": "piX5Ym+C0AC3pZoHCjILrwalqc1D+UmZg1F/GH3UXX0buFK3hmmiY9VhnpIopRZU8yf8NL9hqxf4nnMODI7K20IdIZlw"
+    "iv": "FjdsvqiTL3AGEqrX",
+    "ct": "NtZlbzoBTTf18RAyAkb03hqWOlEd5PSunKesunHbDogG0oJl/PE4l5Jji9a2m79PfqATbBzIyjSkYiYbS4VG0hQvM3LC"
    },
    "files": [
     {
@@ -192,7 +215,7 @@
      "h": 1907
     }
    ],
-   "at": 6
+   "at": 7
   },
   {
    "id": "iroha",
@@ -202,11 +225,11 @@
    "note": "10/27 19:15 · 套餐 すき焼き ¥9,900 × 2 · 改期取消前一天打電話",
    "d2": "",
    "sec": {
-    "iv": "n22tnwY8L+/WY6XV",
-    "ct": "mPyRnWDCnKzYAzm8mxYyEv4on9AiKgjR6ZG5cKLN2jp9gTnCfJsmzzG6RgXiWEcuWJ5Dw/w+VPHWC/8bB1+SIoEnRCJOOmag/CP9nQl6HhTnoBCU1Pjmi29tC4M5Kkgk/cdLPjucEjT2AKriGwYH/KUuTH2AL4W5nE9ytIScGfY9nouuUDDB/xY0vBKNIdqiyie2MtYzsxZIo40dcZVHY4SBmaKSObk="
+    "iv": "9hN59VxnbqtfEruM",
+    "ct": "nGKkGMCgE62k+mwWbj5TNlyLuPA6T+UnsRBCYR3zrx2YuSKt4FjP5MZTzlBxbtdgSSRcsu+LUVn9UWAcP5Hd/xkPc00DMEADCjfaoouYpp1+8yne8QFyHrd4hDrusFkEvjK/2Qol4aBwB7CSegI3OPyD3hqsOR9gdDOit+amgSYYeWAp8+fb0UNJhr4/Ev8n7376hFcm6+7nK+zrdpE5sWK0od56eNs="
    },
    "files": [],
-   "at": 7
+   "at": 8
   },
   {
    "id": "nara",
@@ -216,11 +239,11 @@
    "note": "行李箱 ×2 · 寄 09:00、取 14:00（營業時間內早到晚到都可以）· 已付 1,600 円 · 前一天 23:59 後不能改或取消",
    "d2": "",
    "sec": {
-    "iv": "3Ntf3HzfJb6/ZB95",
-    "ct": "4kKg2T6YA/qVsj99fBuXT0bBGK10WOpDleYJql62XA2qZCPrAm5sJR5F0mbaCRmT5xs11y5JNDk94L6JqFDTUXloGHGvvSDLtfMM02ZaQ6l4iFQkxDaRWF/ITAVhRmlVQpbHMuRkyKjJXmkUt2T4N5OdVuxAUi3pGQyrl6rnw3BDZ9B9TmuuPn5X6vRk4SFMpmwkOHmjtfVBHbHpyplTZN6t89hOhMwg59PPQPk1x13SrJzF2H7Pe4u1WtDYgJfOwGoqz+iWpQ=="
+    "iv": "7CB4NoWI4ARhYAxc",
+    "ct": "S2+tfKC5ui0kEZCQpPrxWdRjA2Jonmub/no0nsGblbukE5JIqWsANQ6tZYQwpmWy/l5SIaStwqroh2v/xAcdmrZYTa9nzOSOpkNGp1gJd71A8nRIDeAxvdmrSllQMJWLHbyKtLOHPwSoCt4qMTc3rjAbGOE2uRBpF5dM+wgANGBMMfzy9sVNHKhcQeVnuIqdUrg61TrtiEmc/jEnf1KFC4oSU92+L7XEOWFulymrU5OaT6PyAIJnZuHdGawFZuPs3A76kDVVjw=="
    },
    "files": [],
-   "at": 8
+   "at": 9
   },
   {
    "id": "roji",
@@ -230,11 +253,11 @@
    "note": "10/28 09:00 · 只收現金 · 店家已回信確認",
    "d2": "",
    "sec": {
-    "iv": "K5NBVInaQXATH0QG",
-    "ct": "sfA+eCMiHI83/v65cLq76pC5sKlyENxseeLpTZCLbMAkGr1WxHL1eXqXkAr2Wbly5xsVnM0dMhYfwIHg47JsGsvFsHFlzMFVdBZOx7IfJZ5p/GFEDCy8OFUrKbbTn+nb+LF404v+5eGiHhRVywil1PriQQiHIlbV3ah9TGppSoGhBs/pCicsP7hs5Kw7O21pTquDG8bP"
+    "iv": "ELC+LJNf+bIH06Sr",
+    "ct": "duHyAeBpo5W821Aw2Yx2bf5QYE0tqKqaEDIeadoiVd/WBHOf7uC3PQpsK5WZgRwWoJpB2HP9LbWbDa2z59rlAl3PTgz8BlzWn+3+llgEDzBy9basbs2WoZN/9A5aVUssFFsjSfqe4x42Squ/lJHJIdXXFu0wHSYy9S2IU4tl+PSgedTmtBhsWdAoPkEsfvEFm0nepeVc"
    },
    "files": [],
-   "at": 9
+   "at": 10
   },
   {
    "id": "haruka",
@@ -244,11 +267,11 @@
    "note": "WEST QR 電子車票；單程不能中途下車，坐到關西空港",
    "d2": "",
    "sec": {
-    "iv": "VTajLxIxa7EsungN",
-    "ct": "ZaDRHVLwglubhh/CXT7bxczt0+k1VH4/t+0jegmg678MVdbbqjm58iycKoPeQd0qAWJHDt9Fz/wfJzjVsMo="
+    "iv": "LRG9CPQaWDKEb1AZ",
+    "ct": "OSVWU/22to3toOsUWDFAaRH6DKIP9r6KoKq3sgULZaIBb4nsKM6VcotHBmE/phoF2OJVEnJVbYD1ZyTmXyA="
    },
    "files": [],
-   "at": 10
+   "at": 11
   },
   {
    "id": "airporter",
@@ -258,11 +281,11 @@
    "note": "行李箱 ×2 · 09:00 前在 Laon Inn 交件 · 18:00 送到 T1 4F JAL ABC 櫃台 · 掛牌要寫訂單號碼 · 航班 AK177 · 行李照片已上傳，入住後再上傳訂房確認（房號）",
    "d2": "",
    "sec": {
-    "iv": "qBewaNw3Zlj0VErx",
-    "ct": "XAV7e2uvP61BhcDfKq3sbpcmauBNQWE7mTW8an1kx8ufLKem5sPstzA8kiFo6lAA2jWuIS4ctk+m8Jm5DpeZHRTLBx+qmj0j7JnGGUQou8N9ZBBD8oqnXQod/LeaSbC8YnTHV9gx2DnpRhuXISha8w/WnHtYdvSf/+m1WJl6ZrUbKJTVfl64TkugNaYL8b1mG5vayft33Va4vRENqhKaA1ac7UaBdoG1R8OteBjDbMeX6oqiDjN5NRhJhLI0W4UTbWjiDr5sKh/nMYe3I6SYe3nTyziLszp+Z2dda7e87JyO734JbSW+OVh1e7N4hU6GzT2ytUsPhE0tPFgmWKAWUFUwFmQV4TKn0HXCM1sQoRwi4Y+6sUCH2MUa+IgHG5XAjKSwEHEWDHuuz/KvQ7tnTGM5cFiplPC55C2ZnDPX2qYMSHxbY1ZygoyBj+KlCepdlT22YcqhE+sq8Y9qBcqILeazxi/CKyNT9bMIOwLY6EG5eq/BNsqJYvERXug="
+    "iv": "/CK1xjs1pV02mfXh",
+    "ct": "DEAS41Z+Z2ds20cVOlG6ge1MfekcqMRVl2PCzAVNhmFuVF+EU5YUd+8767SG+TZdU2+HSeASBlznCTdQ1JrAc0aCCvRdmguvd9nY8a5lyCi1f2N68KOI1AAheQePXZ/xgnIj9c6A6VS5Fku9acyncWcbyr5y+HGuYk/ndXvqPwPRGwJCylo5OIN78Yre+PAcrSfNDdSE7Bl3yyvUfrNGwEh6O349v+UdltoHou4OjYAfEgY+8OzsyCqBDTsc0IyGjb22KBDp07LDG7CU1hdPcz6LsowRjzkKyE9/IkFzmZD4R1kQ9fu346BOVtmZmMrcrYWh7v1moGe3cr5n4Jw6dQQijLn9+Gd9mx8mPXxpCXJ5Cn01hdNl/MavmzNVwNXd+J9YS8VTXMvme2yWi47azq59Qd8PiG78gvnQPf4cX4s8VPhN9cih8PRMuSSKKIPZtLRBIKH75/BM/EkDq2X5+KTLRn4U6Y4KTO6oX227GkhgHvHXTy6kCuIk8PQ="
    },
    "files": [],
-   "at": 11
+   "at": 12
   }
  ]
 }

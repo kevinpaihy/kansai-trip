@@ -710,7 +710,7 @@ var DAYS=[
  rows:[
   {w:'13:10',x:'到桃園機場第一航廈報到（起飛前約 2.5 hr）',q:'Taoyuan International Airport Terminal 1'},
   {bk:'fl',w:'15:40',r:1,x:'亞航 D7 378 桃園 T1 起飛',b:['已訂','ok']},
-  {w:'19:30',r:1,x:'降落關西機場第一航廈（表定 19:20，延誤）',q:'Kansai International Airport Terminal 1'},
+  {bk:'vjw',w:'19:30',r:1,x:'降落關西機場第一航廈（表定 19:20，延誤）',q:'Kansai International Airport Terminal 1',i:'入境審查、海關申報出示 Visit Japan Web 的 QR（兩人各一張，在票券分頁）。'},
   {bk:'enjoy',w:'20:50',x:'搭 INNN 接駁巴士直達飯店（約 70 分；入境加領行李抓約 1.5 hr）',k:'move',rt:['Kansai International Airport Terminal 1','大阪市中央区高津3-3-33 東方レジデンス','transit']},
   {bk:'h1',w:'22:00',x:'入住東方レジデンス（自助入住，密碼在入住信）',k:'stay',q:'大阪市中央区高津3-3-33 東方レジデンス'},
   {w:'22:05',x:'步行到とこ葉（5–7 分）',k:'move',rt:['大阪市中央区高津3-3-33 東方レジデンス','とこ葉 難波店','walking']},
@@ -1289,6 +1289,7 @@ document.getElementById('toTop').addEventListener('click',function(){window.scro
    不存密碼雜湊：vault/meta.chk 解得開就是密碼對。金鑰只在記憶體，勾「記住 7 天」才放進這台的 localStorage。 */
 (function(){
   var HINT=[
+    {k:'vjw',d:'10/24',t:'Visit Japan Web 入境 QR ×2',s:'入境審查、海關出示'},
     {k:'enjoy',d:'10/24',d2:'10/26',t:'關西 Have Fun Pass（1 週 3 設施）×2',s:'1/3 INNN 巴士 · 2/3 HARUKAS 300 · 3/3 Wonder Cruise'},
     {k:'usjin',d:'10/25',t:'USJ 入園門票 ×2',s:'入園掃 QR'},
     {k:'metro26',d:'10/26',t:'大阪地鐵 26 小時券（Klook）',s:'天守閣售票處出示可打折'}
